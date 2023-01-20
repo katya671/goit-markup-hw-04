@@ -407,7 +407,7 @@ body {
     column-gap: 24px;
 }
 .project-card {
-    width: calc((100%-48px) / 3);
+    width: calc(100% / 3 - 16px);
 }
 .project-card-link {
     color: var(--dark-color);
