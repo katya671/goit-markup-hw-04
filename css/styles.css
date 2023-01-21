@@ -289,15 +289,14 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    color: var(--subtle-text-color);
 }
 .customers-link:is(:hover, :focus) {
     border: 1px solid var(--action-color);
+    color: var(--action-color);
 }
 .customers-icon {
-    fill: var(--subtle-text-color);
-}
-.customers-link:is(:hover, :focus) .customers-icon {
-    fill: var(--action-color);
+    fill: currentColor;
 }
 
 /* -----------FOOTER----------- */
